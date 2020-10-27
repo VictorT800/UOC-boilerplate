@@ -1,0 +1,22 @@
+// Configuración de H1 - H6, enlaces a, p, etc.  y etiquetas sin
+// denominación específica. No class, no ID. 
+h1 {
+  font-size: $h1-size;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: $h2-size;
+}
+
+h3 {
+  font-size: $h3-size;
+  text-indent: 16px;
+  margin-bottom: 22px;
+}
+
+p {
+  font-size: $vt-font-size;
+  line-height: $vt-line-height;
+}

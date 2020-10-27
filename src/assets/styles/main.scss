@@ -24,3 +24,13 @@
 /**
  * Do NOT include anything else in this file!
  */
+
+@import "config";
+
+//Importación de los mixin;
+
+@import "mixin";
+@import "layouts/componentes";
+@import "layouts/generico";
+@import "layouts/config";
+@import "layouts/elementos";

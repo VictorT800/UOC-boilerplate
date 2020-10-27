@@ -1,0 +1,37 @@
+// Estilos genéricos de las diferentes partes concretas, clases específicas, ertc.
+
+// Diseño del header
+.contHeader {
+  margin: auto;
+  text-align: center;
+  //position: fixed;
+  width: 95%;
+  max-width: 850px;
+}
+
+// Diseño de los apartados principales que se repiten en todas las secciones
+.principal {
+  @include border-radius(10px);
+  margin: auto;
+  width: 95%;
+  max-width: 850px;
+  border: 2px solid $vt-class-principal-color;
+  padding: $vt-class-principal-padding;
+}
+
+.datos {
+  display: flex;
+  flex-direction: row;
+}
+
+.dato-titulo {
+  width: 140px;
+}
+
+.dato-parametro-color {
+  color: $dato-parametro-color;
+}
+
+.dato-variable {
+  padding-left: 10px;
+}

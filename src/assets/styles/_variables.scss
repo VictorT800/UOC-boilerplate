@@ -6,3 +6,19 @@ $font-family-serif: "Georgia", "Times New Roman", serif;
 $uoc-corporate: #000078;
 $uoc-masterbrand: #73edff;
 $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+
+// ---- Colores globales:
+$vt-master: #fff6e9;
+$vt-letra: #002278;
+
+// --- Configuración de la tipogragía genérica:
+$vt-font-size: 16px;
+$vt-line-height: 22px;
+$h1-size: 36px;
+$h2-size: 28px;
+$h3-size: 22px;
+$dato-parametro-color: #053cc9;
+
+// Bordes, colores de cajas y estilo
+$vt-class-principal-color: #34495e;
+$vt-class-principal-padding: 20px 10px;
