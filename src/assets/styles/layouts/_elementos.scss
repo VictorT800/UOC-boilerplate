@@ -20,3 +20,21 @@ p {
   font-size: $vt-font-size;
   line-height: $vt-line-height;
 }
+
+i {
+  margin-right: 12px;
+}
+
+abbr {
+  cursor: alias;
+}
+
+footer {
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  background: #434343;
+  color: white;
+  width: 100%;
+}

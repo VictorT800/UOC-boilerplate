@@ -10,6 +10,7 @@ $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 // ---- Colores globales:
 $vt-master: #fff6e9;
 $vt-letra: #002278;
+$vt-master-pattern: url(../images/vintage-wallpaper.png);
 
 // --- Configuración de la tipogragía genérica:
 $vt-font-size: 16px;
@@ -18,6 +19,9 @@ $h1-size: 36px;
 $h2-size: 28px;
 $h3-size: 22px;
 $dato-parametro-color: #053cc9;
+
+// ---- Configuraci´no tipografía Footer:
+$footer-p-size: 14px;
 
 // Bordes, colores de cajas y estilo
 $vt-class-principal-color: #34495e;
