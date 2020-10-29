@@ -16,10 +16,17 @@ body {
   //background-color: $vt-master;
   background: $vt-master-pattern;
   color: $vt-letra;
+  //padding-top: 190px;
   //margin-top: 40px;
 }
 
 // ---- Distancia para el header fixed:
 main {
   padding-top: 180px;
+}
+
+@media (max-width: 800px) {
+  main {
+    padding-top: 0;
+  }
 }

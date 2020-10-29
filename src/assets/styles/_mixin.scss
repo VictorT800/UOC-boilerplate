@@ -12,3 +12,10 @@
   -o-box-shadow: $property;
   box-shadow: $property;
 }
+
+@mixin text-shadow($property) {
+  -webkit-text-shadow: $property;
+  -ms-text-shadow: $property;
+  -o-text-shadow: $property;
+  text-shadow: $property;
+}

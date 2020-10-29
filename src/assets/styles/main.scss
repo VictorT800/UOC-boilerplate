@@ -30,7 +30,12 @@
 //Importación de los mixin;
 
 @import "mixin";
+
+// importación de los componentes. Estilos genéricos y clases
 @import "layouts/componentes";
+
+// Estilos generales: HTML, Main, body, etc
 @import "layouts/generico";
-@import "layouts/config";
+
+// Configuración etiquetas genéricas (sin clase), H1 a H6, <p>, nav, footer, etc
 @import "layouts/elementos";

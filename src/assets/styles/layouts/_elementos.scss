@@ -34,9 +34,18 @@ nav {
       vertical-align: middle;
       padding: 8px 20px;
       margin: 10px 12px;
-      color: #666;
 
-      & a { text-decoration: none; }
+      & a {
+        text-decoration: none;
+        color: #82a9d2;
+        font-family: $font-family-sans-serif;
+        transition: 0.4s;
+
+        &:hover {
+          @include text-shadow($vt-text-shadow);
+          color: #bdd1d6;
+        }
+      }
     }
   }
 }
@@ -57,4 +66,23 @@ footer {
   background: #434343;
   color: white;
   width: 100%;
+}
+
+// ---------- Meida Queries ----------
+@media (max-width: 800px) {
+  nav {
+    & ul {
+      & li {
+        display: block;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
 }
