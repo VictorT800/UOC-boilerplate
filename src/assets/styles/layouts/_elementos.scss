@@ -3,11 +3,14 @@
 h1 {
   font-size: $h1-size;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  color: $h1-h2-color;
 }
 
 h2 {
   font-size: $h2-size;
+  color: $h1-h2-color;
+  margin-top: 26px;
 }
 
 h3 {
@@ -19,6 +22,23 @@ h3 {
 p {
   font-size: $vt-font-size;
   line-height: $vt-line-height;
+}
+
+nav {
+  & ul {
+    list-style: none;
+    padding: 0;
+
+    & li {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 8px 20px;
+      margin: 10px 12px;
+      color: #666;
+
+      & a { text-decoration: none; }
+    }
+  }
 }
 
 i {

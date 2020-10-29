@@ -4,20 +4,22 @@
 .contHeader {
   margin: auto;
   text-align: center;
-  //position: fixed;
+  position: fixed;
   width: 100%;
-  max-width: 850px;
+  background: $vt-master-pattern;
+  //max-width: 850px;
 }
 
 // ---------- Diseño de los apartados principales que se repiten en todas las secciones
 .principal {
   @include border-radius(10px);
-  @include box-shadow(3px 3px 10px #687780);
+  @include box-shadow($vt-box-shadow);
   margin: 20px auto;
   width: 100%;
   max-width: 850px;
   border: 2px solid $vt-class-principal-color;
   padding: $vt-class-principal-padding;
+  background: $vt-master-pattern-2;
 }
 
 // ---------- Contenedor genérico de cada secciónd e datos --

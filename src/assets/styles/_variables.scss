@@ -10,7 +10,12 @@ $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 // ---- Colores globales:
 $vt-master: #fff6e9;
 $vt-letra: #002278;
-$vt-master-pattern: url(../images/vintage-wallpaper.png);
+$vt-master-pattern: #001d3c;
+$vt-master-pattern-2: url(../images/cork-wallet.png);
+$h1-h2-color: #f9f9f9;
+
+// ---- Sombras:
+$vt-box-shadow: 4px 3px 10px #687780;
 
 // --- Configuración de la tipogragía genérica:
 $vt-font-size: 16px;

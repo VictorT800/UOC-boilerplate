@@ -13,7 +13,13 @@ html {
   
 body {
   font-family: $font-family-serif;
-  background-color: $vt-master;
+  //background-color: $vt-master;
+  background: $vt-master-pattern;
   color: $vt-letra;
-  margin-top: 40px;
+  //margin-top: 40px;
+}
+
+// ---- Distancia para el header fixed:
+main {
+  padding-top: 180px;
 }
